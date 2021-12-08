@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
 // src
 import { store, sagaMiddleware } from './redux/store';
 import Router from './Router';
