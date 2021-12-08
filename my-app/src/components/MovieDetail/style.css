@@ -1,0 +1,9 @@
+.wookie-movie-detail-text {
+    padding-left: 2rem;
+}
+
+.wookie-movie-detail-header-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

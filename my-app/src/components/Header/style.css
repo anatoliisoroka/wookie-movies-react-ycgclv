@@ -1,7 +1,7 @@
 .wookie-header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 0 5rem;
     border-bottom: 2px solid #000;
 }

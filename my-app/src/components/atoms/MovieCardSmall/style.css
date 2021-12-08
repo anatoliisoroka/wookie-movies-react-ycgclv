@@ -1,0 +1,6 @@
+.wookie-movie-card {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: .7rem 0;
+}

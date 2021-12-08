@@ -9,12 +9,7 @@ function SearchInput({ defaultValue, onSearch, ...props }) {
     const onChange = event => {
         const { value } = event.target;
         setInputValue(value);
-    }
-
-    const onKeyDown = event => {
-        if (event.key === 'Enter') {
-            onSearch(inputValue);
-        }
+        onSearch(value);
     }
 
     return (
@@ -26,7 +21,6 @@ function SearchInput({ defaultValue, onSearch, ...props }) {
                     className="wookie-search"
                     value={inputValue}
                     onChange={onChange}
-                    onKeyDown={onKeyDown}
                     {...props}
                 />
             </label>

@@ -1,0 +1,11 @@
+.wookie-home {
+    padding: 1rem 5rem;
+}
+
+.wookie-home-notify {
+    font-size: 20px;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

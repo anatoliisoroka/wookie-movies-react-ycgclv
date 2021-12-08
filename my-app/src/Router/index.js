@@ -10,7 +10,7 @@ function AppRouter() {
         <ApplicationLayout>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/:videoId" element={<Detail />} />
+                <Route path="/:movieId" element={<Detail />} />
             </Routes>
         </ApplicationLayout>
     );

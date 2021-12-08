@@ -11,12 +11,12 @@ function Header() {
     const onSearch = (searchValue) => {
         dispatch(searchMoviesRequested({
             searchValue,
-        }))
+        }));
     }
     
     return (
         <div className="wookie-header">
-            <h1 className="wookie-header-text">Wookie Movies</h1>
+            <h1 className="wookie-header-text">Wookie <br /> Movies</h1>
             <SearchInput onSearch={onSearch} />
         </div>
     )
